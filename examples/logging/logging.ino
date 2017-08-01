@@ -5,7 +5,7 @@ void setup() {
   logger::filter = logger::FATAL; // only FATAL will be printed
 }
 
-// Only logs which has higher importance than the value in logger::filter will be printed.
+// Only logs which has same as or higher importance than the value in logger::filter will be printed.
 
 int count = 0;
 

@@ -1,4 +1,5 @@
 # Logger for Arduino
+
 Simple logging library for arduino
 
 - [Features](#features)
@@ -14,6 +15,7 @@ Simple logging library for arduino
 - Filter by importance
 
 Logging in Arduino is sometimes written redundantly.
+
 ```cpp
 Serial.print("In line ");
 Serial.print(__LINE__);
@@ -21,7 +23,9 @@ Serial.print(", Value is: ");
 Serial.println(val);
 // Output: In line 2, Value is: ??
 ```
+
 We can write logging process briefly using this library.
+
 ```cpp
 LOGGER_LOG(logger::INFO) << "Value is: " << val << '\n';
 // Output: [INFO] sketch.ino:2: Value is: ??
