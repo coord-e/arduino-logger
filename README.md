@@ -4,9 +4,9 @@ Simple logging library for arduino
 
 - [Features](#features)
 - [Get started](#get-started)
-		- [Installation](#installation)
-		- [Sketch](#sketch)
-		- [Output](#output)
+    - [Installation](#installation)
+    - [Sketch](#sketch)
+    - [Output](#output)
 - [Using alternative serial port](#using-alternative-serial-port)
 - [License](#license)
 
@@ -55,7 +55,7 @@ void setup() {
 int count = 0;
 
 void loop() {
-	logger::filter = logger::FATAL; // only FATAL will be printed
+  logger::filter = logger::FATAL; // only FATAL will be printed
 
   LOGGER_LOG(logger::FATAL) << "Fatal error!\n";
   LOGGER_LOG(logger::ERROR) << "Error!\n";
@@ -75,9 +75,9 @@ void loop() {
 ### Output
 
 ```
-[FATAL]	logging.ino:13: Fatal error!
-[INFO]	logging.ino:20: You can put almost every kinds of object into the log
-[INFO]	logging.ino:21: e.g. int: 2 or float: 3.14
+[FATAL]  logging.ino:13: Fatal error!
+[INFO]  logging.ino:20: You can put almost every kinds of object into the log
+[INFO]  logging.ino:21: e.g. int: 2 or float: 3.14
 ```
 
 # Using alternative serial port
