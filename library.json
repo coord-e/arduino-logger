@@ -1,0 +1,18 @@
+{
+  "name": "arduino-logger",
+  "keywords": "logging",
+  "description": "Simple logger for Arduino",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/coord-e/arduino-logger.git"
+  },
+  "version": "1.0.0",
+  "authors": {
+    "name": "coord.e",
+    "email": "me@coord-e.com",
+    "url": "http://coord-e.com/"
+  },
+  "license": "MIT",
+  "frameworks": "arduino",
+  "platforms": "*"
+}
