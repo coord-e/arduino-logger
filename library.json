@@ -1,6 +1,6 @@
 {
   "name": "arduino-logger",
-  "keywords": "logging",
+  "keywords": "logging, logger, arduino, serial",
   "description": "Simple logger for Arduino",
   "repository": {
     "type": "git",
