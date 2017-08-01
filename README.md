@@ -4,6 +4,7 @@ Simple logging library for arduino
 
 - [Features](#features)
 - [Get started](#get-started)
+		- [Installation](#installation)
 		- [Sketch](#sketch)
 		- [Output](#output)
 - [Using alternative serial port](#using-alternative-serial-port)
@@ -33,6 +34,12 @@ LOGGER_LOG(logger::INFO) << "Value is: " << val << '\n';
 
 
 # Get started
+
+### Installation
+
+1. Download [arduino-logger.zip](https://github.com/coord-e/arduino-logger/archive/master.zip).
+2. Import downloaded zip using Arduino IDE's "Add .ZIP library..."
+3. You can find arduno-logger is shown as "Logger" in "Examples" or "Include Library" in Arduino IDE.
 
 ### Sketch
 
