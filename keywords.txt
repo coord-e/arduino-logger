@@ -7,20 +7,20 @@
 #######################################
 
 LOGGER_LOG	KEYWORD2
-filter  KEYWORD2
+filter	KEYWORD2
 
 #######################################
 # Instances (KEYWORD2)
 #######################################
 
-logger KEYWORD2
+logger	KEYWORD2
 
 #######################################
 # Constants (LITERAL1)
 #######################################
 
-LOGGER_SERIAL LITERAL1
-FATAL  LITERAL1
-ERROR  LITERAL1
-WARN  LITERAL1
-INFO  LITERAL1
+LOGGER_SERIAL	LITERAL1
+FATAL	LITERAL1
+ERROR	LITERAL1
+WARN	LITERAL1
+INFO	LITERAL1
