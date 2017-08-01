@@ -25,16 +25,16 @@ struct logger_stream {
     if (en) {
       LOGGER_SERIAL.print("[");
       switch (level) {
-        case level::FATAL:
+        case FATAL:
           LOGGER_SERIAL.print("FATAL");
           break;
-        case level::ERROR:
+        case ERROR:
           LOGGER_SERIAL.print("ERROR");
           break;
-        case level::WARN:
+        case WARN:
           LOGGER_SERIAL.print("WARN");
           break;
-        case level::INFO:
+        case INFO:
           LOGGER_SERIAL.print("INFO");
           break;
       }
