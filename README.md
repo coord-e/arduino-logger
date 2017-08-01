@@ -48,14 +48,15 @@ LOGGER_LOG(logger::INFO) << "Value is: " << val << '\n';
 
 void setup() {
   Serial.begin(9600);
-  logger::filter = logger::FATAL; // only FATAL will be printed
 }
 
-// Only logs which has higher importance than the value in logger::filter will be printed.
+// Only logs which has same as or higher importance than the value in logger::filter will be printed.
 
 int count = 0;
 
 void loop() {
+	logger::filter = logger::FATAL; // only FATAL will be printed
+
   LOGGER_LOG(logger::FATAL) << "Fatal error!\n";
   LOGGER_LOG(logger::ERROR) << "Error!\n";
   LOGGER_LOG(logger::WARN) << "Warning!\n";
@@ -75,9 +76,6 @@ void loop() {
 
 ```
 [FATAL]	logging.ino:13: Fatal error!
-[ERROR]	logging.ino:14: Error!
-[WARN]	logging.ino:15: Warning!
-[INFO]	logging.ino:16: Information!
 [INFO]	logging.ino:20: You can put almost every kinds of object into the log
 [INFO]	logging.ino:21: e.g. int: 2 or float: 3.14
 ```
